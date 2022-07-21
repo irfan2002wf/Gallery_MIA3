@@ -755,6 +755,14 @@ video {
   width: 1.25rem;
 }
 
+.w-16 {
+  width: 4rem;
+}
+
+.w-1 {
+  width: 0.25rem;
+}
+
 .max-w-\[250px\] {
   max-width: 250px;
 }
@@ -878,6 +886,11 @@ video {
 .bg-lb3 {
   --tw-bg-opacity: 1;
   background-color: rgb(30 41 59 / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .fill-fc {
@@ -1191,11 +1204,6 @@ body {
 
 .dark .dark\:opacity-40 {
   opacity: 0.4;
-}
-
-.dark .dark\:shadow-\[\#c4ad72\] {
-  --tw-shadow-color: #c4ad72;
-  --tw-shadow: var(--tw-shadow-colored);
 }
 
 .dark .dark\:shadow-fcd {
